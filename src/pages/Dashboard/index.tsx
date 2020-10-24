@@ -4,9 +4,9 @@ import outcome from '../../assets/outcome.svg';
 import total from '../../assets/total.svg';
 import api from '../../services/api';
 import Header from '../../components/Header';
-import formated from '../../utils/formatedValue';
+import formatValue from '../../utils/formatValue';
 import { Container, CardContainer, Card, TableContainer } from './styles';
-import formatedDate from '../../utils/formatedDate';
+import formatDate from '../../utils/formatDate';
 
 interface Transaction {
   id: string;
@@ -54,21 +54,23 @@ const Dashboard: React.FC = () => {
               <p>Entradas</p>
               <img src={income} alt="Income" />
             </header>
-            <h1 data-testid="balance-income">{formated(balance.income)}</h1>
+            <h1 data-testid="balance-income">{formatValue(balance.income)}</h1>
           </Card>
           <Card>
             <header>
               <p>Saídas</p>
               <img src={outcome} alt="Outcome" />
             </header>
-            <h1 data-testid="balance-outcome">{formated(balance.outcome)}</h1>
+            <h1 data-testid="balance-outcome">
+              {formatValue(balance.outcome)}
+            </h1>
           </Card>
           <Card total>
             <header>
               <p>Total</p>
               <img src={total} alt="Total" />
             </header>
-            <h1 data-testid="balance-total">{formated(balance.total)}</h1>
+            <h1 data-testid="balance-total">{formatValue(balance.total)}</h1>
           </Card>
         </CardContainer>
 
@@ -86,9 +88,9 @@ const Dashboard: React.FC = () => {
               {transactions.map(transaction => (
                 <tr key={transaction.id}>
                   <td className="title">{transaction.title}</td>
-                  <td className="income">{formated(transaction.value)}</td>
+                  <td className="income">{formatValue(transaction.value)}</td>
                   <td>{transaction.category.title}</td>
-                  <td>{formatedDate(transaction.created_at)}</td>
+                  <td>{formatDate(transaction.created_at)}</td>
                 </tr>
               ))}
             </tbody>
