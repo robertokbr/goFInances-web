@@ -62,7 +62,7 @@ const Dashboard: React.FC = () => {
               <img src={outcome} alt="Outcome" />
             </header>
             <h1 data-testid="balance-outcome">
-              {formatValue(balance.outcome)}
+              {`- ${formatValue(balance.outcome)}`}
             </h1>
           </Card>
           <Card total>
