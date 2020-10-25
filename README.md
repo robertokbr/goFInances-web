@@ -1,11 +1,9 @@
 <h1 align="center">
-    <img src="https://camo.githubusercontent.com/ab9f94b1f47bf05fbf0f99d65a802f638cb38f21/68747470733a2f2f692e696d6775722e636f6d2f613334616f30782e706e67" width="100px" /><br>
-    <br>
- GoBarber Frontend Web
+ GoFinances Web React App
 </h1>
 
 <h4 align="center">
-Complete toolkit to improved the barbershop bussines!
+Finance controll
 </h4>
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/robertokbr/GoFInancesWeb.svg">
@@ -27,9 +25,8 @@ Complete toolkit to improved the barbershop bussines!
 </p>
 
 
- <img src="https://github.com/robertokbr/GoFInancesWeb/blob/master/.Github/signin.png"/>
-  <img src="https://github.com/robertokbr/GoFInancesWeb/blob/master/.Github/signout.png"/>
- <img src="https://github.com/robertokbr/GoFInancesWeb/blob/master/.Github/portail.png"/>
+ <img src="https://github.com/robertokbr/GoFInancesWeb/blob/master/.Github/In%C3%ADcio.png"/>
+  <img src="https://github.com/robertokbr/GoFInancesWeb/blob/master/.Github/Importar.png"/>
 
 
 # 🚧 In progress
@@ -37,10 +34,8 @@ Complete toolkit to improved the barbershop bussines!
 - [ReactJs with Typescript](https://reactjs.org) - A JavaScript library for building user interfaces
 - [react-router-dom]()
 - [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and NodeJs
-- [Uuidv4]()
-- [Yup]()
 - [Styled-components]()
-- [React-Spring](https://www.react-spring.io/)
+- [react-dropzone]()
 - [Eslint]()
 - [Prettier]()
 - [EditorConfig]()
@@ -99,8 +94,7 @@ $ yarn start
 ```
 ---
 
-# 🤖 API Repository: [GoBarberApi](https://github.com/robertokbr/GoBarber-API)
-# 🤳 Mobile Repository: [GoBarberMobile](https://github.com/robertokbr/GoBarber-Mobile)
+## 🤖 API Repository: [GoFinances-API](https://github.com/robertokbr/GoFinances-Api)
 
 Roberto Junior :wave: [Join me on Linkedin!](https://www.linkedin.com/in/robertojrcdc/)
 
